@@ -1,1 +1,6 @@
-   
+import json
+
+I1 = input("Hello: ")
+
+with open('hello.json', 'w') as f:
+  json.dump(I1)
